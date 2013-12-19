@@ -29,6 +29,9 @@
         
         free(content);
     }
+    else {
+        printf("ERROR | unable to get valid file pointer\n");
+    }
 }
 
 
